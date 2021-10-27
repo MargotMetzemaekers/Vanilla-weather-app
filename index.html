@@ -16,8 +16,28 @@
   <body>
     <div class="app">
       <div class="container">
-        <div class="weather"></div>
-        <form></form>
+        <div class="weather">
+          <form class="search-form" id="search-form">
+          <div class="mb-3">
+            <input 
+            type="search"
+            placeholder="Type city here..."
+            autocomplete="off"
+            id="city-input"
+            class="form-control shadow-sm">
+            <input
+            type="submit"
+            value="Search"
+            class="form-control btn btn-primary shadow-sm"
+          />
+            <div class="col-3">
+            </form>
+            <button
+            class="btn btn-success"
+            id="current-location-button">Current</button>
+          </div>
+      </div>
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
