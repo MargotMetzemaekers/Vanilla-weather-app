@@ -1,9 +1,8 @@
 body {
-  background: white;
+  background: #f5ebeb;
   border-radius: 16px;
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
   padding: 40px;
-  color: #878787;
 }
 h1 {
   font-family: "Roboto Slab", serif;
