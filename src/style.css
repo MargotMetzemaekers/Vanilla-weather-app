@@ -7,22 +7,27 @@ body {
 h1 {
   font-family: "Roboto Slab", serif;
   text-align: center;
+  color: #3ab1c8;
 }
 h2 {
   font-family: "Roboto Slab", serif;
   text-align: center;
+  color: #2772db;
 }
 h3 {
   font-family: "Roboto Slab", serif;
   text-align: center;
+  color: #070f4e;
 }
 h4 {
   font-family: "Roboto Slab", serif;
   text-align: center;
+  color: #79d1c3;
 }
 ul {
   font-family: "Roboto Slab", serif;
   text-decoration: none;
+  color: #719192;
 }
 footer {
   text-align: center;
