@@ -1,3 +1,6 @@
+body {
+  border: 1px solid #885df1;
+}
 h1 {
   font-family: "Roboto Slab", serif;
   text-align: center;
