@@ -42,3 +42,8 @@ function useInput(event) {
   let city = document.querySelector("#city-input").value;
   searchCity(city);
 }
+function searchLocation(position) {
+  let apiKey = "cb286bad3607984b41ed10c8de5cf00e";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayWeatherCondition);
+}
