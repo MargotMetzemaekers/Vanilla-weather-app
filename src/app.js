@@ -66,7 +66,6 @@ function search(event) {
   let cityInput = document.querySelector("#city-input");
   cityElement.innerHTML = cityInput.value;
 }
-celciusTemperature = response.data.main.temp;
 
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
@@ -76,3 +75,4 @@ function displayFahrenheitTemperature(event) {
   let fahrenheitLink = document.querySelector("#fahrenheit-link");
   fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 }
+celciusTemperature = response.data.main.temp;
