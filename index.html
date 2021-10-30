@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    >
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,46 +26,61 @@
         <div class="weather">
           <form class="search-form" id="search-form">
             <div class="row">
-          <div class="col-3">
-            <input 
-            type="search"
-            placeholder="Type city here..."
-            autocomplete="off"
-            id="city-input"
-            class="form-control shadow-sm"/>
-            <input
-            type="submit"
-            value="Search"
-            class="form-control btn btn-primary shadow-sm"
-          />
-            <div class="col-3">
-              </div>
+              <div class="col-3">
+                <input
+                  type="search"
+                  placeholder="Type city here..."
+                  autocomplete="off"
+                  id="city-input"
+                  class="form-control shadow-sm"
+                />
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary shadow-sm"
+                />
+                <div class="col-3"></div>
               </div>
             </div>
-            <button class="btn btn-success"
-            id="current-location-button">Current location</button>
-            </form>
-<h1 id="city">Pick a city...</h1>
-<h2 id="date"></h2>
-<h3><span class="temperature" id="temperature"></span
-        ><span class="units"><a href="#" id="celcius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a></span></h3>
-        <h4 id="description"></h4>
-        <img
-        src="http://openweathermap.org/img/wn/10d@2x.png"
-        id="icon"
-        alt="clear"
-        class="float-center"
-        />
-        <ul>
-          <li>☔  Humidity: <span id="humidity"></span>%</li>
-          <li>🎐  Wind: <span id="wind-speed"></span> km/h</li>
-      </ul>
-          </div>
-      </div>
+            <button class="btn btn-success" id="current-location-button">
+              Current location
+            </button>
+          </form>
+          <h1 id="city">Pick a city...</h1>
+          <h2 id="date"></h2>
+          <h3>
+            <span class="temperature" id="temperature"></span
+            ><span class="units"
+              ><a href="#" id="celcius-link">°C</a>|<a
+                href="#"
+                id="fahrenheit-link"
+                >°F</a
+              ></span
+            >
+          </h3>
+          <h4 id="description"></h4>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            id="icon"
+            alt="clear"
+            class="float-center"
+          />
+          <ul>
+            <li>☔ Humidity: <span id="humidity"></span>%</li>
+            <li>🎐 Wind: <span id="wind-speed"></span> km/h</li>
+          </ul>
         </div>
       </div>
     </div>
     <script src="src/app.js"></script>
   </body>
-  <footer><span>Coded open source on GitHub by </span><a href="https://github.com/MargotMetzemaekers/Vanilla-weather-app" target="_blank">Margot Metzemaekers 👩‍💻 </a> hosted on Netlify</footer>
+  <footer>
+    <span>Coded open source on GitHub by </span
+    ><a
+      href="https://github.com/MargotMetzemaekers/Vanilla-weather-app"
+      target="_blank"
+      >Margot Metzemaekers 👩‍💻
+    </a>
+    hosted on Netlify
+  </footer>
 </html>
