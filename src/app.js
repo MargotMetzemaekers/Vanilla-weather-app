@@ -17,6 +17,7 @@ let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 let searchForm = document.querySelector("#search-form");
 let iconElement = document.querySelector("#icon");
+let celciusTemperature = response.data.main.temp;
 searchForm.addEventListener("submit", useInput);
 
 dateElement.innerHTML = formatDate(currentTime);
@@ -74,7 +75,7 @@ function displayFahrenheitTemperature(event) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
+let celciusTemperature = null;
+
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
-let celciusTemperature = response.data.main.temp;
