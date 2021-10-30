@@ -78,7 +78,7 @@ function displayFahrenheitTemperature(event) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
-let celciusTemperature = null;
+let celciusTemperature = 0;
 
 function displayCelciusTemperature(event) {
   event.preventDefault();
