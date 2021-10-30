@@ -76,7 +76,7 @@ function displayFahrenheitTemperature(event) {
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let celciusTemperature = response.data.main.temp;
+celciusTemperature = response.data.main.temp;
 
 function displayCelciusTemperature(event) {
   event.preventDefault();
