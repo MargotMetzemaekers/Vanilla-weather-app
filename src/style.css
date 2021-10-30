@@ -33,3 +33,6 @@ footer {
   text-align: center;
   font-family: monospace;
 }
+img {
+  display: block;
+}
