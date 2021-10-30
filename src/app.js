@@ -77,6 +77,8 @@ function displayFahrenheitTemperature(event) {
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
+let celciusTemperature = null;
+
 function displayCelciusTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
