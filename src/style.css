@@ -1,5 +1,5 @@
 body {
-  background: #93e4c1;
+  background: #f0d4a2;
   border-radius: 16px;
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
   padding: 40px;
@@ -8,12 +8,12 @@ body {
 h1 {
   font-family: "Roboto Slab", serif;
   text-align: center;
-  color: #e58cdb;
+  color: #113a5d;
 }
 h2 {
   font-family: "Roboto Slab", serif;
   text-align: center;
-  color: #f4adad;
+  color: #c4ffdd;
 }
 h3 {
   font-family: "Roboto Slab", serif;
