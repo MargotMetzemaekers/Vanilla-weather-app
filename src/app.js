@@ -16,6 +16,7 @@ function formatDate(date) {
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 let searchForm = document.querySelector("#search-form");
+let iconElement = document.querySelector("#icon");
 searchForm.addEventListener("submit", useInput);
 
 dateElement.innerHTML = formatDate(currentTime);
@@ -31,6 +32,10 @@ function displayWeatherCondition(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/10d@2x.png`
+  );
 }
 function searchCity(city) {
   let apiKey = "cb286bad3607984b41ed10c8de5cf00e";
