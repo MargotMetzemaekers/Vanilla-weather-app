@@ -19,14 +19,13 @@ let searchForm = document.querySelector("#search-form");
 let iconElement = document.querySelector("#icon");
 searchForm.addEventListener("submit", useInput);
 
-let celciusTemperature = response.data.main.temp;
-
 dateElement.innerHTML = formatDate(currentTime);
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
+  let celciusTemperature = response.data.main.temp;
 
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind-speed").innerHTML = Math.round(
