@@ -69,9 +69,9 @@ function search(event) {
 function displayCelciusTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
+  celciusTemperature = response.data.main.temp;
   temperatureElement.innerHTML = Math.round(celciusTemperature);
 }
-celciusTemperature = response.data.main.temp;
 
 let celciusLink = document.querySelector("#celcius-link");
 celciusLink.addEventListener("click", displayCelciusTemperature);
