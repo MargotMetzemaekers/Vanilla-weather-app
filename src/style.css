@@ -18,12 +18,12 @@ h2 {
 h3 {
   font-family: "Roboto Slab", serif;
   text-align: center;
-  color: #49beb7;
+  color: #541f1f;
 }
 h4 {
   font-family: "Roboto Slab", serif;
   text-align: center;
-  color: #757a79;
+  color: #d34c26;
 }
 ul {
   font-family: "Roboto Slab", serif;
@@ -42,5 +42,5 @@ footer {
   text-align: center;
   text-decoration: none;
   font-size: 30px;
-  color: #d59bf6;
+  color: #d34c26;
 }
