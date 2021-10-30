@@ -66,12 +66,11 @@ function search(event) {
   cityElement.innerHTML = cityInput.value;
 }
 
-celciusTemperature = response.data.main.temp;
-
 function displayCelciusTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celciusTemperature);
+  celciusTemperature = response.data.main.temp;
 }
 
 let celciusLink = document.querySelector("#celcius-link");
