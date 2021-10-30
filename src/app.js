@@ -17,8 +17,9 @@ let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 let searchForm = document.querySelector("#search-form");
 let iconElement = document.querySelector("#icon");
-let celciusTemperature = response.data.main.temp;
 searchForm.addEventListener("submit", useInput);
+
+let celciusTemperature = response.data.main.temp;
 
 dateElement.innerHTML = formatDate(currentTime);
 function displayWeatherCondition(response) {
