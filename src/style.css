@@ -40,5 +40,6 @@ footer {
 .units {
   text-align: center;
   text-decoration: none;
-  font-size: small;
+  font-size: 30px;
+  color: #d59bf6;
 }
