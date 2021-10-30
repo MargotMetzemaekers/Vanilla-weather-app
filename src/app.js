@@ -70,13 +70,15 @@ function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
 
-  let celciusTemperature = null;
+  celciusTemperature = response.main.data.temp;
 
   celciusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");
   let fahrenheitTemperature = (celciusTemperature.innerHTML * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
+
+let celciusTemperature = null;
 
 function displayCelciusTemperature(event) {
   event.preventDefault();
