@@ -4,7 +4,7 @@ body {
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
   padding: 40px;
   margin: 0;
-  box-sizing: 777;
+  width: 300px;
 }
 h1 {
   font-family: "Roboto Slab", serif;
