@@ -25,8 +25,6 @@ function displayWeatherCondition(response) {
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
-  let celciusTemperature = response.data.main.temp;
-
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind-speed").innerHTML = Math.round(
     response.data.wind.speed
@@ -74,6 +72,7 @@ function displayFahrenheitTemperature(event) {
   let fahrenheitTemperature = (temperatureElement.innerHTML * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
+let celciusTemperature = response.data.main.temp;
 
 let celciusTemperature = null;
 
