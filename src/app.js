@@ -60,11 +60,13 @@ function getCurrentLocation(event) {
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
+celciusTemperature = response.data.main.temp;
+
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   let temperature = temperatureElement.innerHTML;
-  temperatureElement.innerHTML = Math.round(temperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(celciusTemperature);
 }
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
