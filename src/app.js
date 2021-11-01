@@ -89,5 +89,5 @@ let celciusTemperature = null;
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let celciusLink = document.querySelector("#celcius-link");
-celciusLink.addEventListener("click", displayCelciusTemperature);
+let celciusLink = document.querySelector("#temperature");
+temperatureElement.addEventListener("click", displayCelciusTemperature);
