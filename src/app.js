@@ -82,12 +82,12 @@ function displayCelciusTemperature(event) {
   celciusLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
   temperatureElement.innerHTML = Math.round(celciusTemperature);
+
+  let celciusTemperature = null;
+
+  let fahrenheitLink = document.querySelector("#fahrenheit-link");
+  fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+  let celciusLink = document.querySelector("#temperature");
+  temperatureElement.addEventListener("click", displayCelciusTemperature);
 }
-
-let celciusTemperature = null;
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
-let celciusLink = document.querySelector("#temperature");
-temperatureElement.addEventListener("click", displayCelciusTemperature);
