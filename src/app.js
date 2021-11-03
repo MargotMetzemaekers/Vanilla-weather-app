@@ -14,7 +14,7 @@ function formatDate(date) {
 }
 
 function displayForecast() {
-  let forecastElement = document.querySelector("#forecast");
+  let forecastElement = document.querySelector("#weather-forecast");
 
   forecastElement.innerHTML = "Forecast";
 }
