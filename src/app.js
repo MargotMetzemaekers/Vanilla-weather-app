@@ -20,6 +20,13 @@ let iconElement = document.querySelector("#icon");
 searchForm.addEventListener("submit", useInput);
 
 dateElement.innerHTML = formatDate(currentTime);
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  forecastElement.innerHTML = "Forecast";
+}
+
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
