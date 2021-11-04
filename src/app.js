@@ -23,7 +23,8 @@ function formatDay(timestamp) {
 }
 
 function displayForecast(response) {
-  let forecast = response.data.daily;
+  let forecastElement = response.data.daily;
+
   let forecastElement = document.querySelector("#weather-forecast");
 
   let forecastHTML = `<div class="row">`;
