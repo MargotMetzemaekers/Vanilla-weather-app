@@ -95,7 +95,7 @@ function displayWeatherCondition(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
   celsiusTemperature = Math.round(response.data.main.temp);
 
-  getForecast(response.data.coords);
+  getForecast(response.data.coord);
 }
 function searchCity(city) {
   let apiKey = "cb286bad3607984b41ed10c8de5cf00e";
