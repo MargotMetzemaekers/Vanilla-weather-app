@@ -55,14 +55,14 @@ footer {
 .weather-forecast-date {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #668ba4;
 }
 .weather-forecast-temperature-max {
   color: #dc2f2f;
-  font-size: 13px;
+  font-size: 16px;
 }
 .weather-forecast-temperature-min {
   color: #53a8b6;
-  font-size: 13px;
+  font-size: 16px;
 }
