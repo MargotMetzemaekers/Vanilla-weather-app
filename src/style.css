@@ -41,6 +41,9 @@ button {
   color: white;
   float: right;
 }
+.form-control btn btn-primary shadow-sm {
+  float: right;
+}
 #icon {
   display: block;
   margin: 0 auto;
