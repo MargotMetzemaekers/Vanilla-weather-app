@@ -37,11 +37,6 @@ footer {
   text-align: center;
   font-family: monospace;
 }
-button {
-  color: white;
-  background-color: yellow;
-  float: left;
-}
 #icon {
   display: block;
   margin: 0 auto;
