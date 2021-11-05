@@ -39,10 +39,7 @@ footer {
 }
 button {
   color: white;
-  float: right;
-}
-.form-control btn btn-primary shadow-sm {
-  float: right;
+  float: left;
 }
 #icon {
   display: block;
