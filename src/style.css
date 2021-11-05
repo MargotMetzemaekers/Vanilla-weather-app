@@ -38,7 +38,8 @@ footer {
   font-family: monospace;
 }
 button {
-  color: #400082;
+  color: white;
+  background-color: #476269;
 }
 #icon {
   display: block;
