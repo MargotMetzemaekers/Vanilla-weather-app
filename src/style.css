@@ -39,6 +39,7 @@ footer {
 }
 button {
   color: white;
+  float: right;
 }
 #icon {
   display: block;
