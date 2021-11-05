@@ -37,7 +37,7 @@ footer {
   text-align: center;
   font-family: monospace;
 }
-.current-location-button {
+.btn btn-success {
   color: #400082;
 }
 #icon {
