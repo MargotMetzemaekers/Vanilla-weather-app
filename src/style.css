@@ -39,7 +39,7 @@ footer {
 }
 button {
   color: white;
-  background-color: #476269;
+  width: fit-content;
 }
 #icon {
   display: block;
